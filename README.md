@@ -6,11 +6,19 @@ One-page modern landing page for ApexGTM AI.
 
 ApexGTM AI helps AI software companies build outbound systems, find qualified leads, and book more demos.
 
+## Live site
+
+https://apexgtm-ai-site.vercel.app/
+
+## Booking link
+
+https://calendly.com/nickkbetancourt/30min
+
 ## Files
 
 - `index.html` — main one-page website
 - `styles.css` — modern dark UI styling
-- `script.js` — smooth scrolling, mobile nav, and contact form mailto helper
+- `script.js` — mobile nav and footer year helper
 - `vercel.json` — Vercel static deployment config
 
 ## Deploy on Vercel
@@ -25,4 +33,4 @@ ApexGTM AI helps AI software companies build outbound systems, find qualified le
 
 ## Next edits
 
-Update the CTA links in `index.html` and the email in `script.js` once the booking link, domain, and business email are ready.
+Add a custom domain, connect analytics, and eventually replace the Calendly-only CTA with a HubSpot or CRM-connected lead capture flow.
