@@ -284,7 +284,8 @@ h3 {
 .hero-card,
 .glass-card,
 .service-card,
-.contact-form {
+.contact-form,
+.validation-card {
   border: 1px solid var(--line);
   background: linear-gradient(180deg, var(--panel-strong), var(--panel));
   box-shadow: var(--shadow);
@@ -418,14 +419,16 @@ small {
 }
 
 .problem-grid,
-.services-grid {
+.services-grid,
+.validation-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
 .glass-card,
-.service-card {
+.service-card,
+.validation-card {
   border-radius: 28px;
   padding: 26px;
 }
@@ -448,7 +451,8 @@ small {
 }
 
 .service-card p,
-.glass-card p {
+.glass-card p,
+.validation-card p {
   margin-bottom: 0;
 }
 
@@ -487,6 +491,39 @@ small {
 
 .process-item p {
   margin-bottom: 0;
+}
+
+.proof-section {
+  padding-top: 72px;
+}
+
+.validation-card {
+  min-height: 250px;
+}
+
+.validation-card p {
+  color: var(--text);
+  font-size: 1.02rem;
+}
+
+.validation-card small {
+  display: block;
+  margin-top: 18px;
+  line-height: 1.6;
+}
+
+.validation-label {
+  display: inline-flex;
+  margin-bottom: 18px;
+  padding: 8px 10px;
+  border: 1px solid rgba(96, 245, 255, 0.24);
+  border-radius: 999px;
+  background: rgba(96, 245, 255, 0.1);
+  color: var(--cyan);
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
 .clients-section {
@@ -646,7 +683,8 @@ textarea {
   }
 
   .problem-grid,
-  .services-grid {
+  .services-grid,
+  .validation-grid {
     grid-template-columns: 1fr;
   }
 
