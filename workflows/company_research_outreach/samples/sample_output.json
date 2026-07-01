@@ -1,0 +1,32 @@
+{
+  "company_name": "Acme Robotics",
+  "website": "https://acme-robotics.example.com",
+  "generated_at": "2026-07-01T11:56:50.063907+00:00",
+  "mode": "mock",
+  "company_summary": "Acme Robotics (https://acme-robotics.example.com) is a growing software company. [MOCK DATA] This summary is a placeholder — configure ANTHROPIC_API_KEY to generate a real, research-backed summary.",
+  "ideal_buyer_persona": {
+    "title": "VP of Sales",
+    "department": "Sales",
+    "seniority": "VP",
+    "description": "Owns revenue growth at Acme Robotics and is evaluating ways to scale outbound pipeline without growing headcount."
+  },
+  "pain_points": [
+    "Manual prospecting is slow and inconsistent across reps",
+    "Outbound volume doesn't scale with current headcount",
+    "Personalizing outreach at scale is hard to maintain"
+  ],
+  "outreach": {
+    "cold_email": {
+      "subject": "Quick idea for Acme Robotics's pipeline",
+      "body": "Hi {first_name},\n\nNoticed Acme Robotics is scaling its go-to-market motion. ApexGTM helps AI software companies generate qualified pipeline through AI-powered outbound, without adding headcount.\n\nWorth a quick chat this week?\n\nBest,\n{sender_name}"
+    },
+    "follow_up_email": {
+      "subject": "Re: Quick idea for Acme Robotics's pipeline",
+      "body": "Hi {first_name},\n\nFollowing up in case this got buried. Happy to share a couple of examples of how we've helped similar teams generate pipeline faster.\n\nBest,\n{sender_name}"
+    },
+    "linkedin_dm": "Hi {first_name}, saw Acme Robotics is growing fast — curious if scaling outbound pipeline is on your radar this quarter?",
+    "cold_call_opener": "Hi {first_name}, this is {sender_name} from ApexGTM — I'll be quick. We help GTM teams at AI companies like Acme Robotics generate qualified pipeline without adding headcount. Is that worth 15 minutes on your calendar?"
+  },
+  "crm_notes": "[MOCK DATA] Researched Acme Robotics (https://acme-robotics.example.com). Persona: VP of Sales. Primary pain point: scaling outbound without more headcount. Draft outreach sequence generated and ready for review.",
+  "recommended_next_action": "Send the cold email, wait 3 business days, then follow up via LinkedIn DM."
+}
