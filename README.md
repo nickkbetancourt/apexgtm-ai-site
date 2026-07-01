@@ -34,3 +34,7 @@ https://calendly.com/nickkbetancourt/30min
 ## Next edits
 
 Add a custom domain, connect analytics, and eventually replace the Calendly-only CTA with a HubSpot or CRM-connected lead capture flow.
+
+## Workflows
+
+- [`workflows/company_research_outreach`](workflows/company_research_outreach/README.md) — MVP module: Company Research -> Personalized Outreach -> CRM-ready Output.
